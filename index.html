@@ -7,20 +7,27 @@
   <meta name="description" content="">
 
   <title>jQuery Hypersize</title>
+  
+  <link rel="stylesheet" href="hypersize.css" type="text/css" media="screen">
+  
   <script src="http://www.google.com/jsapi?key="></script>
   <script type="text/javascript">
     google.load("jquery", "1.4");
   </script>
   <script src="jquery.hypersize.js"></script>
+  
   <script>
     $(function(){
-      $("")
+      $("#hypersize-background").hypersize();
     });
   </script>
+  
 </head>
 <body>
-<div id="background">
   
+<div id="hypersize-background">
+  <img src="http://farm6.static.flickr.com/5007/5339655671_bd3651fbed_b.jpg" alt="">
 </div>
+
 </body>
 </html>
