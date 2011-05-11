@@ -43,10 +43,14 @@ Include the script:
 
     <script src="jquery.hypersize.js"></script>
 
-Run the script after DOM ready:
+Run the script on window load:
 
     <script>
-      $(function(){
+      window.onload = function(){
         $("#hypersize-background").hypersize();
-      });
+      };
     </script>
+    
+The main reason why you should run this on window load and not on DOM ready is 
+because webkit browsers can't get the image dimensions when the image isn't
+loaded completely.

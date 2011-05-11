@@ -1,6 +1,7 @@
 /*
  * jQuery Hypersize
  * Original code by http://twitter.com/frederfred
+ * Author: Yves Van Broekhoven
  */
 
 (function($){
